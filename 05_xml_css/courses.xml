@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="lang.css"?>
+<learning_hub>
+  <main_title><title>Gowtham's Technology Learning Hub</title><sub_title>Technologies from my full-stack profile</sub_title></main_title>
+  <main_section>
+    <technology><name>Frontend Development</name><description>Build responsive and interactive user interfaces.</description><topics><topic>HTML</topic><topic>CSS</topic><topic>React.js</topic></topics></technology>
+    <technology><name>Backend Development</name><description>Create RESTful APIs and application logic.</description><topics><topic>Node.js</topic><topic>Express.js</topic><topic>FastAPI</topic></topics></technology>
+    <technology><name>Database</name><description>Store and manage application data.</description><topics><topic>MySQL</topic><topic>MongoDB</topic><topic>Database Design</topic></topics></technology>
+    <technology><name>DevOps &amp; Deployment</name><description>Manage versions and application deployment.</description><topics><topic>Git</topic><topic>GitHub</topic><topic>Docker</topic></topics></technology>
+  </main_section>
+</learning_hub>

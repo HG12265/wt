@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#111827"/><text x="500" y="60" fill="white" text-anchor="middle" font-size="32" font-family="Arial" font-weight="bold">FULL-STACK TECHNOLOGY MAP</text>
+<g font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">
+<rect x="70" y="110" width="210" height="140" rx="18" fill="#312e81"/><text x="175" y="190" fill="white">React.js</text>
+<rect x="395" y="110" width="210" height="140" rx="18" fill="#065f46"/><text x="500" y="190" fill="white">Node.js</text>
+<rect x="720" y="110" width="210" height="140" rx="18" fill="#0f766e"/><text x="825" y="190" fill="white">FastAPI</text>
+<rect x="70" y="350" width="210" height="140" rx="18" fill="#075985"/><text x="175" y="430" fill="white">MySQL</text>
+<rect x="395" y="350" width="210" height="140" rx="18" fill="#166534"/><text x="500" y="430" fill="white">MongoDB</text>
+<rect x="720" y="350" width="210" height="140" rx="18" fill="#854d0e"/><text x="825" y="430" fill="white">Python</text>
+</g></svg>
