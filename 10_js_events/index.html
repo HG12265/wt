@@ -1,1 +1,78 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Mouse & Form Events</title><style>body{font-family:Arial;padding:30px;background:#f8fafc}#box{width:250px;height:120px;background:lightblue;display:grid;place-items:center;margin-bottom:20px;cursor:pointer;border-radius:12px}input,button{padding:10px;margin-right:8px}</style></head><body><h2>Mouse & Form Events</h2><div id="box">Hover / Click Me</div><form id="form"><input id="name" placeholder="Enter your name" required><button>Submit</button></form><p id="msg"></p><script>const box=document.getElementById('box');box.onmouseover=()=>box.style.background='lightgreen';box.onmouseout=()=>box.style.background='lightblue';box.onclick=()=>box.style.background='orange';document.getElementById('form').onsubmit=e=>{e.preventDefault();document.getElementById('msg').textContent=`Hello, ${document.getElementById('name').value}! Welcome to G. Gowtham's Web Technologies Lab.`;e.target.reset();};</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse & Form Events</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 30px;
+            background: #f8fafc;
+        }
+
+        #box {
+            width: 250px;
+            height: 120px;
+            background: lightblue;
+            display: grid;
+            place-items: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Mouse & Form Events</h2>
+
+    <div id="box">
+        Hover / Click Me
+    </div>
+
+    <form id="form">
+        <input
+            id="name"
+            placeholder="Enter your name"
+            required
+        >
+
+        <button>Submit</button>
+    </form>
+
+    <p id="msg"></p>
+
+    <script>
+        const box = document.getElementById('box');
+
+        box.onmouseover = () => {
+            box.style.background = 'lightgreen';
+        };
+
+        box.onmouseout = () => {
+            box.style.background = 'lightblue';
+        };
+
+        box.onclick = () => {
+            box.style.background = 'orange';
+        };
+
+        document.getElementById('form').onsubmit = (e) => {
+            e.preventDefault();
+
+            document.getElementById('msg').textContent =
+                `Hello, ${document.getElementById('name').value}! Welcome to G. Gowtham's Web Technologies Lab.`;
+
+            e.target.reset();
+        };
+    </script>
+</body>
+</html>
